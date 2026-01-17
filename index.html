@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our School</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- INTRO SECTION -->
+<section>
+  <h2>OUR SCHOOL:</h2>
+  <p>Our School has two departments namely: Computer Science and Information Technology.</p>
+
+  <hr>
+
+  <h2>OUR STUDENTS:</h2>
+  <p>Our School is able to attract the best students due to its programs' competitiveness in the industry.</p>
+</section>
+
+<div class="layout">
+
+  <!-- FIXED SIDEBAR -->
+  <aside class="sidebar">
+
+    <h3>Search</h3>
+    <input type="text" placeholder="Search...">
+
+    <h3>Dashboard</h3>
+    <ul>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#resources">Student Resources</a></li>
+      <li><a href="#portal">Student Portal</a></li>
+    </ul>
+
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#departments">Departments</a></li>
+      <li><a href="#admissions">Admissions</a></li>
+      <li><a href="#staff">Staff Directory</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <h3>Follow Us</h3>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+    </div>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <div class="hero">
+      <h1 id="home">Welcome to Our School</h1>
+    </div>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Our School offers high-quality programs in Computer Science and Information Technology,
+        supported by experienced faculty and modern facilities.</p>
+    </section>
+
+    <section>
+      <h2>Our Students</h2>
+      <p>We attract top talent due to our practical teaching methods,
+        strong industry partnerships, and excellent learning environment.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@ourschool.edu</p>
+      <p>Phone: +254 700 123 456</p>
+      <p>Address: 123 Knowledge Lane, Nyeri, Kenya</p>
+    </section>
+
+    <h2 id="programs">Programs Offered</h2>
+    <ul>
+      <li>BSc. Computer Science</li>
+      <li>BSc. Information Technology</li>
+      <li>Short Courses in Web Development & Cybersecurity</li>
+    </ul>
+    <fieldset length="20px" width="20">
+      <legend >Running total of all text Boxes</legend>
+    <form onsubmit="event.preventDefault(); TotalPrice()">
+      <table>
+        <tr>
+          <th>No.</th>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>Calculator</td>
+          <td><input type="number" oninput="TotalPrice()" id="cost1"></td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Exercise Book[A4]</td>
+          <td><input type="number" oninput="TotalPrice()" id="cost2"></td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Laptops</td>
+          <td><input type="number" oninput="TotalPrice()" id="cost3"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <th>Total Price</th>
+          <td id="totalPrice">0</td>
+        </tr>
+      </table>
+    </form>
+    </fieldset>
+
+  </main>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 Our School. All Rights Reserved.</p>
+</footer>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

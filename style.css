@@ -1,0 +1,113 @@
+body {
+  color: white;
+  font-family: serif;
+  margin-top: 0px;
+  background-color: #222;
+}
+
+header {
+  background-color: rgb(93, 184, 101);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+section {
+  background-color: rgb(5, 103, 5);
+  padding: 20px;
+}
+
+/* FIXED TWO-COLUMN LAYOUT */
+.layout {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SIDEBAR (non-collapsible, non-responsive) */
+.sidebar {
+  width: 260px;
+  background-color: rgb(93, 184, 101);
+  padding: 20px;
+  color: black;
+  border-radius: 8px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 8px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(34, 34, 34);
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px;
+}
+
+.hero {
+  background-color: rgb(93, 184, 101);
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  color: black;
+}
+
+table,th,td{
+  border: 1px solid white;
+  border-collapse: collapse;
+
+}
+fieldset{
+  border: 1px solid white;
+  width: 300px;
+  height: 170px;
+}
